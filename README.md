@@ -13,15 +13,15 @@ If no options are provided, the generator defaults to using all character types.
 
 Generate a 20-character password with letters and numbers:
 ```bash
-python Untitled-1.py -len 20 -l -n
+python pass_gen.py -len 20 -l -n
 ```
 Generate a 12-character password with all character types:
 ```bash
-python Untitled-1.py -len 12
+python pass_gen.py -len 12
 ```
 Generate a password with only special characters:
 ```bash
-python Untitled-1.py -len 10 -s
+python pass_gen.py -len 10 -s
 ```
 Output
 The generated password will be printed to the console:
